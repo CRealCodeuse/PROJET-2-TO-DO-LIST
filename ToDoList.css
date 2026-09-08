@@ -22,7 +22,7 @@ header { /*ENTETE DE LA PAGE*/
 }
 
 body { /*CORPS DE LA PAGE*/
-    background-color: antiquewhite; /*Couleur de fond de la page*/
+    background-color: #fce1be; /*Couleur de fond de la page*/
 }
 
 
@@ -80,7 +80,7 @@ th {
 }
 
 .case, td {
-    background-color: whitesmoke;
+    background-color: antiquewhite;
     padding: 10px;
 }
 
