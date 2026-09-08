@@ -457,7 +457,7 @@ let isDarkMode = false; // Variable pour suivre l'état du thème
 Theme.addEventListener('click', function() { // Au clic sur le bouton
     if (!isDarkMode) { // Si le mode sombre n'est pas activé
         document.body.style.backgroundColor = '#121212'; // Couleur de fond sombre
-        document.body.style.color = '#FFFFFF'; // Couleur de texte claire
+        document.body.style.color = '#e0e0e0'; // Couleur de texte claire
         
         // Garder le header en noir
         const header = document.querySelector('header'); // Sélectionner le header
@@ -468,7 +468,7 @@ Theme.addEventListener('click', function() { // Au clic sur le bouton
         // Changer les cellules blanches en grises
         const cells = document.querySelectorAll('td'); // Sélectionner toutes les cellules
         cells.forEach(cell => { // Pour chaque cellule
-            cell.style.backgroundColor = '#c5c5c5ff'; // Gris foncé
+            cell.style.backgroundColor = '#e0e0e0'; // Gris foncé
         });
         
         Theme.textContent = isTranslated ? 'Thème clair' : 'Light mode'; // Changer le texte du bouton selon la traduction
